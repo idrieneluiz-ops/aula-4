@@ -1,1 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+body {
+    max-width: 100vw;
+    background-color: #000000; /* Preto */
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff69b4; /* Rosa */
+    color: #000000; /* Preto */
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+main {
+    background-color: #000000; /* Preto */
+    color: #000000;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    background-color: #ffffff;
+    border: 3px solid #ff69b4; /* Rosa */
+    border-radius: 8px;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 300px;
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #ff1493; /* Tons de Rosa */
+    margin: 8px 0;
+}
+
+.artigo-fonte {
+    font-size: 0.85em;
+    color: #555555;
+    margin-top: 8px;
+}
+
+button {
+    background-color: #ff69b4; /* Rosa */
+    color: #000000; /* Preto */
+    border: none;
+    padding: 8px 12px;
+    margin: 8px 4px 0 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff1493;
+    color: #ffffff;
+}
